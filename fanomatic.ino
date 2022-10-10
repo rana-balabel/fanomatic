@@ -4,7 +4,7 @@ Program Description: Creating a program and circuit to measure the temperature o
 the LED turns on, the temperature sensor measures the temperature and prints it, the servo motor goes to a position according to the temperature, and the motor speed (fan strength) changes depending on the temperature.
 When the switch is turned off, the sensor no longer works, the servo goes back to 0 degrees, the LED turns off, and the fan turns off. 
 
-Latest date of modificationL January 28th 2021
+Latest date of modification: September 2022
 */
 #include <Servo.h>                            //Import the servo.h library for servo use
 Servo myservo;                                //Create an object, of the type "Servo", to control our Servo motor
